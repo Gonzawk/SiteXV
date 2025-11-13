@@ -42,25 +42,23 @@ export default function Invitacion() {
         <Image
           src="/plantillafondohd.png"
           alt="Invitación Bianca 15"
-          width={442}
+          width={1080}
           height={5000}
           priority
           style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "442px",
-            height: "auto",
-            userSelect: "none",
-            pointerEvents: "none",
-          }}
+    width: "100%",
+    height: "auto",
+    userSelect: "none",
+    pointerEvents: "none",
+    display: "block",
+  }}
         />
 
         {/* 🎵 Tocadiscos */}
         <div
           style={{
             position: "absolute",
-            top: "370px",
+            top: "345px",
             left: "50%",
             transform: "translateX(-50%)",
             zIndex: 10,
@@ -79,7 +77,7 @@ export default function Invitacion() {
         <div
           style={{
             position: "absolute",
-            top: "920px",          // ← ajustá este valor para moverlo
+            top: "860px",          // ← ajustá este valor para moverlo
             left: "50%",
             transform: "translateX(-50%)",
             width: "80%",
@@ -98,10 +96,10 @@ export default function Invitacion() {
           aria-label="Ver ubicación"
           style={{
             position: "absolute",
-            top: "1280px",
+            top: "1200px",
             left: "10px",
-            width: "390px",
-            height: "70px",
+            width: "370px",
+            height: "60px",
             background: "transparent",
             border: "none",
             cursor: "pointer",
@@ -114,9 +112,9 @@ export default function Invitacion() {
           aria-label="Confirmar asistencia"
           style={{
             position: "absolute",
-            top: "2150px",
+            top: "2010px",
             left: "10px",
-            width: "390px",
+            width: "370px",
             height: "65px",
             background: "transparent",
             border: "none",
