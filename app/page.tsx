@@ -30,12 +30,15 @@ export default function Invitacion() {
       }}
     >
       <div
-        style={{
-          position: "relative",
-          width: "442px",
-          height: "2550px",
-        }}
-      >
+  style={{
+    position: "relative",
+    width: "100vw",
+    maxWidth: "480px", // tamaño ideal para móviles
+    height: "auto",
+    margin: "0 auto",
+  }}
+>
+
         <Image
           src="/plantillafondohd.png"
           alt="Invitación Bianca 15"
