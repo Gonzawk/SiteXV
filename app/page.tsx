@@ -95,13 +95,13 @@ export default function Invitacion() {
               top: 2010px;
               left: 2%;
               width: 90%;
-              height: 65px;
+              height: px;
             }
           }
         `}</style>
 
         <Image
-          src="/plantillafondohd.png"
+          src="/plantilla.png"
           alt="Invitación Bianca 15"
           width={1080}
           height={6240}
