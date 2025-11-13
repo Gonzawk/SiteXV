@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bianca — Mis 15 años",
     description: "Sábado 6 de Diciembre, 22:00 hs. Salón Heaven",
-    url: "https://TU-DOMINIO.com",
+    url: "https://i.ibb.co/gbrdVBLw/og-image.png",
     siteName: "Invitación Bianca 15",
     type: "website",
     images: [
