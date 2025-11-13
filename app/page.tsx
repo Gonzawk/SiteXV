@@ -144,14 +144,20 @@ export default function Invitacion() {
 
   .contador {
     top: 830px;
+    left: 165px;
+    width: 330px;
   }
 
   .btn-ubicacion {
-    top: 900px;
+    top: 1155px;
+    left: 10px;
+    width: 355px;
   }
 
   .btn-confirmar {
-    top: 1920px;
+    top: 1935px;
+    left: 10px;
+    width: 355px;
   }
 }
 
